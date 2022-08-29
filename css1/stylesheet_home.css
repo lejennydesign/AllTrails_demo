@@ -1,0 +1,361 @@
+body{
+    width: 100%;
+    margin: 19px;
+}
+
+html{
+    width: 428px;
+}
+
+/* Text Styles*/
+
+h1{
+    color: #414141;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 0;
+    font-weight: 600;
+}
+
+h2{
+    color: #414141;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+h3{
+     color: #414141;
+     font-family: 'Red Hat Text', sans-serif;
+     font-size: 20px;
+     line-height: 26.5px;
+     font-weight: 600;
+}
+
+h4{
+    color: #414141;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 20px;
+    line-height: 26.5px;
+    font-weight: 600;
+}
+
+p {
+    color: #414141;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 17px;
+    line-height: 22.5px;
+    font-weight: 400;
+}
+
+.subtext1{
+    color: #414141;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    line-height: 16.5px;
+    font-weight: 400;
+}
+
+.whiteText {
+    color: #FFFFFF;
+}
+
+/* Button */
+
+.all-caps{
+    text-transform: uppercase;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 9px 24px;
+    gap: 10px;
+    background: #408A13;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border-style: none;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 17px;
+    line-height: 22.5px;
+    font-weight: bold;
+}
+
+
+/* Top Navigation CSS */
+
+.top-nav{
+    background-color: #FFFFFF;
+}
+
+.statbar{
+    width:100%;
+}
+
+.top-nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.top-nav-icon{
+    width: 44px;
+}
+
+.All-top{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-image: url('./../images/HeroHeaderBackground.png');
+    height: 297px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    margin: 0px;
+}
+
+#hero_desc{
+    margin: 10px;
+    font-size: 17px;
+}
+
+.container{
+    height: auto;
+    margin-right: 1300px;
+    position: absolute;
+    padding: 25px;
+    padding-top: 110px;
+    text-align: center;
+}
+.settings-cog{
+    position:absolute;
+    width: 44px;
+    left: 390px;
+    top: 360px;
+}
+
+
+.background {
+    background-color: #f2f2f2;
+    padding-bottom: 145px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Group Members Section Stuff & Icons */
+
+.plus-circle-icon{
+    width: 35px;
+    margin: auto 0;
+    padding: 0px;
+}
+
+.Group-Members-Add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ProfilePics{
+    width:100%;
+    margin-top: 10px;
+}
+
+/*Plan a New Hike Card*/
+
+.card-body{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    width: 428px;
+    margin-top:30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    width:300px;
+    text-align: center;
+}
+
+/* My Hiking Groups */
+
+.media{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.media-img{
+    height: 59px;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+.media-heading{
+    display: inline;
+}
+
+.list-text{
+    margin: 0;
+
+}
+.icon{
+   width: 44px; 
+   height: 44px;
+   margin: auto auto;
+   align-content: normal;
+}
+
+#denverNatives {
+    margin-left: 107px
+}
+
+#birdWatchers {
+    margin-left: 119px;
+}
+
+#threeMusketeers {
+    margin-left: 82px;
+}
+
+/* Horizontal Scroll */
+
+.scrollmenu{
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 60px;
+}
+
+.scroll-card{
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    width: 375px;
+}
+
+.textbutton{
+    color: #428A13;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+/* Bottom Nav Bar */
+
+.bottom-nav-icon{
+    width: 44px;
+    margin-top: 21px;
+    margin-bottom: 1px;
+}
+
+.bottom-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1px;
+    border-top: 2px;
+    border-style: solid;
+    border-color: #F1f1f1;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Prefrences Button */
+
+.prefbutton{
+    margin-top: 100px;
+}
+
+
+
+/* My Preferences Page Info */
+
+  .slidecontainer {
+      width: 100%;
+      /* Width of the outside container */
+  }
+
+  /* The slider itself */
+  .slider {
+      -webkit-appearance: none;
+      /* Override default CSS styles */
+      appearance: none;
+      width: 100%;
+      /* Full-width */
+      height: 25px;
+      /* Specified height */
+      background: #d3d3d3;
+      /* Grey background */
+      outline: none;
+      /* Remove outline */
+      opacity: 0.7;
+      /* Set transparency (for mouse-over effects on hover) */
+      -webkit-transition: .2s;
+      /* 0.2 seconds transition on hover */
+      transition: opacity .2s;
+  }
+
+  /* Mouse-over effects */
+  .slider:hover {
+      opacity: 1;
+      /* Fully shown on mouse-over */
+  }
+
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      /* Override default look */
+      appearance: none;
+      width: 25px;
+      /* Set a specific slider handle width */
+      height: 25px;
+      /* Slider handle height */
+      background: #04AA6D;
+      /* Green background */
+      cursor: pointer;
+      /* Cursor on hover */
+  }
+
+  .slider::-moz-range-thumb {
+      width: 25px;
+      /* Set a specific slider handle width */
+      height: 25px;
+      /* Slider handle height */
+      background: #04AA6D;
+      /* Green background */
+      cursor: pointer;
+  }
+
+  
